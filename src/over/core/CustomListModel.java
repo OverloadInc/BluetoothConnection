@@ -22,7 +22,7 @@ import javax.swing.AbstractListModel;
 public class CustomListModel extends AbstractListModel{
     
     /**
-     * Vector for storing remote devices information.
+     * Vector for storing remote devices' information.
      */
     private static Vector<RemoteDevice> devices = new Vector<>();
     

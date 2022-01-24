@@ -7,7 +7,6 @@ import java.io.InputStream;
 import java.io.OutputStream;
 import java.util.Vector;
 import javax.bluetooth.BluetoothStateException;
-
 import javax.bluetooth.DataElement;
 import javax.bluetooth.DeviceClass;
 import javax.bluetooth.DiscoveryAgent;
@@ -35,7 +34,7 @@ import javax.swing.JFileChooser;
 public class ServiceDiscovery implements DiscoveryListener {
     
     /**
-     * The custom list model for storing and dispĺay remote devices information.
+     * The custom list model for storing and display remote devices' information.
      */
     private static CustomListModel customListModel;
     
